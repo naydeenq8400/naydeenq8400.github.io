@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <title class="owner-name">#</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" /> 
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand owner-name" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="github" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1">
+        <div class="container">
+
+            <h1 class="margin text-center">sep10 freedom project</h1>
+            <h2>Context</h2>
+            <p> A project I did in my SEP class was create a webpage based on a movie me and my partner made up. We created a fictional story called "The Adventures of Curious Cat" which is about the advenures that a cat goes on. The point in creating this was to apply all my knowledge on HTML and CSS over the course of about 2 weeks and display it into this webpage. These 2 weeks consisted of writing the story, finding images for it, and tryin to find different ways to make our project pop. We did this using a variety of different colors, fonts, images, and styles. The requirements of the project were to use headings, paragraphs, divs, spans, input fields, google fonts, and CSS selectors. We also had to include images, create a plan using markdown, and specify what parts of the project were done by each partner./p>
+            <p>More text about the project.</p>
+            <h2>Content</h2>
+            <p>My story was about a cat named Cat and his discovery of a portal in his home that led to a new world. The webpage consisted of loud fonts to catch the attention of the audience, many colors for the aesthetics and a sequel of the story. One goal I had was to change the font and color of individual words in one sentencen and did this using span with color and the font "creepster." Another goal I had was to add a submit button at the end of a multiple choice question about the story. I had trouble with it at first, but me and my partner had combined both of our knowledge on html and figured it out.
+            </p>
+            <h1> Reflection:</h1>
+            <h2>Challenges</h2>
+            <p>During this project, I faced many challenged. One of them was using google fonts, especially using multiple ones. It was hard to organize in the CSS of the project, but I eventually figured it out after going back to previous lessons regarding fonts. Another challenge me and my partners had was communicating with each other. Within the three of us, whetether it was debating about colors, or making up another persons work if absent, it was hard to make it clear what each of us were doing. When al of us were together, we were then able to clear up who should do what task.</p>
+            <h2>Takeaways</h2>
+            <p>through this I've learned the imporance of communication, especially when working with others. Before me and my group started communicating with each other, it was really difficult to know what I should do, and make sure the project would get done. I also learned that there's no shghame in asking for help, because asking my partners questions allowed me to learn so much from them, and allowed me to better understand how they were doing the project as well.</p>
+            <h2>Next Steps</h2>
+            <p> For my future work, I would like to add more createve elements to my project in order to make it more eye catching and decorative. I am proud of the result of the project, as it showed me that I was a lot more capable of doing this then I thought I was, and was a great way to use my knowledge of CSS and HTML. in the future, I will use everything I leaned in this project, and also ask for help when needed in order to make all my work done to the best of my ability.</p>
+            <a href="https://naydeenq8400.github.io/sep10-freedom-project/">link to website</a><br>
+            <a href="https://github.com/naydeenq8400/sep10-freedom-project/blob/main/blog/entry07.md">Link to blog</a><br>
+            <!--EXAMPLE OF PREVIEW LINK-->
+            <!--<a href="http://yourUserName.github.io/yourRepoName">Preview</a><br>-->
+            <!--EXAMPLE OF GITHUB LINK-->
+            <!--<a href="http://github.com/yourUserName/yourRepoName">Github</a><br>-->
+          
+
+            <img src="../img/movie-webpage.png" class="img-fluid project-img">
+
+
+            <div class="row">
+
+                <!--
+                <div class="col-sm-6">
+                    Use this to...
+                </div>
+                <div class="col-sm-6">
+                    ...make two columns
+                </div>
+                -->
+
+            </div>
+
+            <!-- Example code snippet below (uncomment to use) -->
+            <!-- https://github.com/hstatsep/other/blob/main/prism/prism.md#how-to-format-your-code-snippets -->
+            
+            <!--
+            <pre><code class="language-css">
+                h1 {
+                    color: red;
+                }
+            </code></pre>
+            -->
+
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <a href="#" target="_blank" id="fork"><img src="../img/fork.png"></a><br>
+        <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/normalize-whitespace/prism-normalize-whitespace.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+
+</html>
